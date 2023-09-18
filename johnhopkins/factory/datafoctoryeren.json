@@ -1,0 +1,9 @@
+{
+	"name": "datafoctoryeren",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "349d661f-6f7c-487f-a9af-79747ed77c9d",
+		"tenantId": "81052e1c-8804-4f86-b20e-fe8e0b82cbf4"
+	}
+}
