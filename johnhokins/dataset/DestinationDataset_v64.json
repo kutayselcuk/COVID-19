@@ -1,0 +1,181 @@
+{
+	"name": "DestinationDataset_v64",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SQLDatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "date",
+				"type": "nvarchar"
+			},
+			{
+				"name": "state",
+				"type": "nvarchar"
+			},
+			{
+				"name": "death",
+				"type": "nvarchar"
+			},
+			{
+				"name": "deathConfirmed",
+				"type": "nvarchar"
+			},
+			{
+				"name": "deathIncrease",
+				"type": "nvarchar"
+			},
+			{
+				"name": "deathProbable",
+				"type": "nvarchar"
+			},
+			{
+				"name": "hospitalized",
+				"type": "nvarchar"
+			},
+			{
+				"name": "hospitalizedCumulative",
+				"type": "nvarchar"
+			},
+			{
+				"name": "hospitalizedCurrently",
+				"type": "nvarchar"
+			},
+			{
+				"name": "hospitalizedIncrease",
+				"type": "nvarchar"
+			},
+			{
+				"name": "inIcuCumulative",
+				"type": "nvarchar"
+			},
+			{
+				"name": "inIcuCurrently",
+				"type": "nvarchar"
+			},
+			{
+				"name": "negative",
+				"type": "nvarchar"
+			},
+			{
+				"name": "negativeIncrease",
+				"type": "nvarchar"
+			},
+			{
+				"name": "negativeTestsAntibody",
+				"type": "nvarchar"
+			},
+			{
+				"name": "negativeTestsPeopleAntibody",
+				"type": "nvarchar"
+			},
+			{
+				"name": "negativeTestsViral",
+				"type": "nvarchar"
+			},
+			{
+				"name": "onVentilatorCumulative",
+				"type": "nvarchar"
+			},
+			{
+				"name": "onVentilatorCurrently",
+				"type": "nvarchar"
+			},
+			{
+				"name": "positive",
+				"type": "nvarchar"
+			},
+			{
+				"name": "positiveCasesViral",
+				"type": "nvarchar"
+			},
+			{
+				"name": "positiveIncrease",
+				"type": "nvarchar"
+			},
+			{
+				"name": "positiveScore",
+				"type": "nvarchar"
+			},
+			{
+				"name": "positiveTestsAntibody",
+				"type": "nvarchar"
+			},
+			{
+				"name": "positiveTestsAntigen",
+				"type": "nvarchar"
+			},
+			{
+				"name": "positiveTestsPeopleAntibody",
+				"type": "nvarchar"
+			},
+			{
+				"name": "positiveTestsPeopleAntigen",
+				"type": "nvarchar"
+			},
+			{
+				"name": "positiveTestsViral",
+				"type": "nvarchar"
+			},
+			{
+				"name": "recovered",
+				"type": "nvarchar"
+			},
+			{
+				"name": "totalTestEncountersViral",
+				"type": "nvarchar"
+			},
+			{
+				"name": "totalTestEncountersViralIncrease",
+				"type": "nvarchar"
+			},
+			{
+				"name": "totalTestResults",
+				"type": "nvarchar"
+			},
+			{
+				"name": "totalTestResultsIncrease",
+				"type": "nvarchar"
+			},
+			{
+				"name": "totalTestsAntibody",
+				"type": "nvarchar"
+			},
+			{
+				"name": "totalTestsAntigen",
+				"type": "nvarchar"
+			},
+			{
+				"name": "totalTestsPeopleAntibody",
+				"type": "nvarchar"
+			},
+			{
+				"name": "totalTestsPeopleAntigen",
+				"type": "nvarchar"
+			},
+			{
+				"name": "totalTestsPeopleViral",
+				"type": "nvarchar"
+			},
+			{
+				"name": "totalTestsPeopleViralIncrease",
+				"type": "nvarchar"
+			},
+			{
+				"name": "totalTestsViral",
+				"type": "nvarchar"
+			},
+			{
+				"name": "totalTestsViralIncrease",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "HttpServerFile"
+		}
+	}
+}
