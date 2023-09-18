@@ -1,0 +1,20 @@
+{
+	"name": "HttpServer1",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"description": "Covid data project, one csv, not up to date",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://covidtracking.com/data/download/all-states-history.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Basic",
+			"userName": "admin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlNZTkFQU0VARkQyNUIwQzQtQjg3Mi00NjgzLTg3QkMtMEJBNzQ1MjA0MDQ2XzAxMzNkODNhLWY5OTQtNGVlNS05MWNmLTA2NDgxZGQyZTNhZCINCn0="
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

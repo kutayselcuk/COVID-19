@@ -1,0 +1,17 @@
+{
+	"name": "DestinationDataset_9um",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Database",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "HttpServerFile"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}
